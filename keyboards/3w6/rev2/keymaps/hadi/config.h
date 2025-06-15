@@ -22,6 +22,10 @@
 #if !defined(NO_PRINT) && !defined(CONSOLE_ENABLE)
 #define NO_PRINT
 #endif // !NO_PRINT
+#define FLOW_TAP_TERM 400
+#define TAPPING_TERM 200
+#define LAYER_TIMEOUT_DURATION 5000
+#define LAYER_NOTIFICATION_DELAY 50
 #define HOLD_ON_OTHER_KEY_PRESS
 #define DEBOUNCE_TYPE = sym_eager_pk
 #define DEBOUNCE 5
